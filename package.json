@@ -5,9 +5,13 @@
 	"repository": "https://github.com/hyunh84/typechain.git",
 	"license": "MIT",
 	"author": "hyunh84 <hyunh84@hanmail.net>",
-	"scripts" : {
-		"start" : "node index.js",
-		"prestart" : "tsc"
+	"scripts": {
+		"start": "tsc-watch --onSuccess \" node dist/index.js\" "
+	},
+	"devDependencies": {
+		"tsc-watch": "^4.2.9"
+	},
+	"dependencies": {
+		"typescript": "^4.1.3"
 	}
-
 }

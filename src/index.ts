@@ -1,1 +1,1 @@
-console.log('start typescript');
+console.log('start typescript2');
