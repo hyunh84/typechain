@@ -1,7 +1,13 @@
 {
-  "name": "typechain",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/hyunh84/typechain.git",
-  "license": "MIT"
+	"name": "typechain",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/hyunh84/typechain.git",
+	"license": "MIT",
+	"author": "hyunh84 <hyunh84@hanmail.net>",
+	"scripts" : {
+		"start" : "node index.js",
+		"prestart" : "tsc"
+	}
+
 }
